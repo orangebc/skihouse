@@ -1,0 +1,128 @@
+.navigation {
+	display: none;
+	position: fixed;
+	top: 70px;
+	right: 0;
+	height: 100%;
+	width: 400px;
+	background-color: $color__red--secondary;
+	opacity: .8;
+	z-index: 1500;
+}
+
+	.navigation__list {
+		padding: 6em 4em;
+		list-style-type: none;
+		li {
+			&:hover a {
+				list-style-image: url(../images/list-image.png);
+				display: list-item;
+			}
+			a {
+				text-transform: uppercase;
+				color: white;
+				font-weight: 400;
+				font-size: 18px;
+				padding: 1em 0;
+				border-bottom: 1px solid white;
+				display: block;
+				&:hover {
+					font-weight: 700;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+.navigation__mobile {
+	text-align: center;
+	ul {
+		padding-top: 0 !important;
+	}
+	li {
+		border-bottom: none !important;
+		&:hover > a {
+			list-style-image: none !important;
+			text-decoration: none !important;
+			border-bottom: none !important;
+		}
+		margin-right: 1em;
+	}
+	span {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+
+.mobile__payment a {
+	color: white;
+	display: block;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+	@media only screen and (min-width: 0) and (max-width: 479px) {
+		.navigation {
+			width: 100%;
+			top: 0;
+			position: fixed;
+			right: 0;
+			z-index: 300;
+			padding-bottom: 2em;
+			overflow: scroll;
+			ul {
+				padding: 1em 3em;
+				li {
+					a {
+						font-size: 14px;
+						padding: 1em 0;
+					}
+				}
+			}
+		}
+	}
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.navigation {
+			width: 100%;
+			top: 0;
+			position: fixed;
+			right: 0;
+			z-index: 300;
+		}
+	}
+	
+
+	@media only screen and (min-width: 992px) {
+		.navigation {
+			width: 400px;
+			top: 70px;
+		}
+	}
+
+.navigation__close {
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	color: white;
+
+	&:hover {
+		cursor: pointer;
+	}
+	&:before {
+		font-size: 32px;
+	}
+}
+
+@media only screen and (min-width: 0) and (max-width: 479px) {
+	.navigation__close {
+		top: 20px;
+		right: 20px;
+		&:before {
+			font-size: 24px;
+		}
+	}
+}

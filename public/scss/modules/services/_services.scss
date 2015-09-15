@@ -1,0 +1,94 @@
+.services {
+	background: url(../images/banner-servicios.jpg) no-repeat;
+	background-size: cover;
+	padding: 8em 0;
+}
+.wishlist {
+	.generic__info--secondary {
+		padding-top: 1em;
+	}
+}
+	.wishlist__items--item {
+		text-align: center;
+	}
+	.wishlist__items--thumbnail {
+		padding: 5em 0;
+	}
+		.wishlist-avion {
+			background: url(../images/servicios/s01-avion.jpg) no-repeat;
+			background-size: cover;
+		}
+		.wishlist-transporte {
+			background: url(../images/servicios/s02-transporte.jpg) no-repeat;
+			background-size: cover;
+		}
+		.wishlist-resorts {
+			background: url(../images/servicios/s03-resort.jpg) no-repeat;
+			background-size: cover;
+		}
+		.wishlist-liftticket {
+			background: url(../images/servicios/s04-liftticket.jpg) no-repeat;
+			background-size: cover;
+		}
+		.wishlist-equipo-ski {
+			background: url(../images/servicios/s05-equipo.jpg) no-repeat;
+			background-size: cover;
+		}
+		.wishlist-clases-ski {
+			background: url(../images/servicios/s06-clases.jpg) no-repeat;
+			background-size: cover;
+		}
+		.wishlist-seguro {
+			background: url(../images/servicios/s07-seguro.jpg) no-repeat;
+			background-size: cover;
+		}
+		.wishlist-apres {
+			background: url(../images/servicios/s08-apresski.jpg) no-repeat;
+			background-size: cover;
+		}
+	.wishlist__items--title {
+		color: white;
+		font-size: 32px;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+	.wishlist__items--add {
+		background-color: #2d2d2d;
+		color: white;
+		padding: .5em 1.5em;
+		display: block;
+		text-transform: uppercase;
+		width: 45%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
+		cursor: pointer;
+		font-weight: 600;
+		&:hover {
+			text-decoration: none;
+			color: white;
+		}
+	}
+	.wishlist__item--icon {
+		background-color: $color__red--primary;
+		color: white;
+		padding: .5em 1em;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.wishlist__item--info {
+		display: none;
+		padding: 2em;
+		border: 1px solid #2d2d2d;
+		.generic__info--primary {
+			text-align: center;
+		}
+		.fa {
+			border: 1px solid #2d2d2d;
+			padding: .3em .5em;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}

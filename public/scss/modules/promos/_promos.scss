@@ -1,0 +1,224 @@
+@media only screen and (min-width: 1200px) {
+	.promos__slider {
+		padding: 12em 0;
+		background-position: 10% 10%;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	.promos__slider {
+		padding: 8em 0;
+	}
+}
+
+@media only screen and (min-width: 0) and (max-width: 479px) {
+	.promos__slider {
+		padding: 4em 0;
+	}
+}
+
+.promos__slider {
+	background: url(../images/promociones/slider1.jpg) no-repeat;
+	background-size: cover;
+	background-position: 10% 10%;
+}
+
+/*#promos__slider .carousel-inner .item .carousel-caption {
+	top: 30%;
+}
+
+	@media only screen and (min-width: 0px) and (max-width: 479px) {
+		#promos__slider .carousel-inner .item .carousel-caption  {
+			top: 15%;
+		}
+	}
+
+	.promos__slider--caption {
+		font-size: 65px;
+		font-weight: 800;
+		text-transform: uppercase;
+		small {
+			font-size: 55px;
+			font-weight: 300;
+			line-height: 1em;
+			color: #fff;
+		}
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 479px) {
+		.promos__slider--caption {
+			font-size: 20px;
+			small {
+				font-size: 15px;
+			}
+		}
+	}
+*/
+
+.promos__info {
+	padding: 2em 1em;
+	background: url(../images/bg-lines.jpg) center center no-repeat;
+	background-size: cover;
+	text-align: center;
+	overflow: hidden;
+	p {
+		font-size: 16px;
+		line-height: 1.5em;
+		strong {
+			text-transform: uppercase;
+		}
+	}
+}
+
+	@media only screen and (min-width: 1200px){
+		.promos__info {
+			padding: 4em 0;
+		}
+	}
+
+.promo__main {
+	background: url(../images/promociones/promoprincipal.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 4em 1em;
+	img {
+		display: none;
+	}
+}
+
+	.promo__main--title {
+		font-weight: 800;
+		color: #fff;
+		text-transform: uppercase;
+		text-shadow: 2px 4px 2px #000;
+		margin: 0;
+	}
+
+	.promo__main--subtitle {
+		color: #fff;
+		font-weight: 300;
+		text-transform: uppercase;
+		text-shadow: 2px 4px 2px #000;
+	}
+
+	.promo__main--details {
+		background-color: $color__red--primary;
+		color: white;
+		display: inline-block;
+		padding: .5em 1em;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	@media only screen and (min-width: 1200px){
+		.promo__main {
+			max-height: 400px;
+		}
+
+		.promo__main--title {
+			font-size: 50px;
+		}
+
+		.promo__main--subtitle {
+			font-size: 24px;
+		}
+
+		.promo__main--details {
+			padding: 1em 2.5em;
+			margin: 1em 0;
+		}
+	}
+
+	@media only screen and (min-width: 480px){
+		.promo__main {
+			padding: 8em 0;
+			max-height: 400px;
+		}
+
+		.promo__main--title {
+			font-size: 50px;
+		}
+
+		.promo__main--subtitle {
+			font-size: 24px;
+		}
+
+		.promo__main--details {
+			padding: 1em 2.5em;
+			margin: 1em 0;
+		}
+	}
+
+	@media only screen and (min-width: 320px) and (max-width: 479px){
+		.promo__main {
+			padding: 6em 0;
+			background-size: cover;
+		}
+
+		.promo__main--title {
+			font-size: 40px;
+		}
+
+		.promo__main--subtitle {
+			font-size: 24px;
+		}
+
+		.promo__main--details {
+			padding: 1em 2.5em;
+			margin: 1em 0;
+		}
+	}
+
+
+.promotions {
+	width: 100%;
+	overflow:hidden;
+}
+
+		.promo__one {
+			background: url(../images/promociones/promo2.jpg) no-repeat;
+			background-size: cover;
+		}
+
+		.promo__two {
+			background: url(../images/promociones/promo3.jpg) no-repeat;
+			background-size: cover;
+		}
+
+		.promo__three {
+			background: url(../images/promociones/promo4.jpg) no-repeat;
+			background-size: cover;
+		}
+
+		.promo__four {
+			background: url(../images/promociones/promo5.jpg) no-repeat;
+			background-size: cover;
+		}
+
+		.promotions__item {
+			padding: 4em 1em;
+			img {
+				display: none;
+			}
+		}
+
+	@media only screen and (min-width: 1200px) {
+		.promotions__item {
+			text-align: center;
+			padding: 8em 0;
+			max-height: 440px;
+			img {
+				display: none;
+			}
+		}
+
+	}
+
+	@media only screen and (min-width: 320px) and (max-width: 479px){
+		.promotions__item {
+			text-align: center;
+			padding: 4em 0;
+			min-height: auto;
+		}
+
+	}

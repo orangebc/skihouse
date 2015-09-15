@@ -1,0 +1,66 @@
+.contactUs {
+	background: url(../images/bg_contacto.jpg) no-repeat;
+	background-size: cover;
+	padding: 2em 0;
+}
+
+	.contactUs__container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+		padding: .5em;
+	}
+
+	@media only screen and (min-width: 0) and (max-width: 480px) {
+		.contactUs__container {
+			width: 100%;
+		}
+	}
+	.contactUs__info {
+		color: white;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.5em;
+		text-align: center;
+	}
+
+	.contactUs__form {
+		padding: 2em 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.contactUs__form--label {
+		color: white;
+		font-size: 18px;
+		text-transform: uppercase;
+		padding: 6px 0;
+	}
+
+	.contactUs__form--field {
+		background-color: transparent !important;
+		border-radius: 0;
+		border: 1px solid white;
+		color: white;
+		padding: 1.5em;
+	}
+
+	.contactUs__form--btn {
+		background-color: transparent !important;
+		border-radius: 0;
+		border: 1px solid white;
+		color: white;
+		font-weight: 600;
+		padding: 1em 0;
+		width: 100%;
+		text-transform: uppercase;
+		&:hover {
+			color: white;
+		}
+	}
+
+	@media only screen and (min-width: 1200px) {
+		.contactUs {
+			padding: 8em 0;
+		}
+	}

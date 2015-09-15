@@ -1,0 +1,361 @@
+.map {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+	@media only screen and (min-width: 0) and (max-width: 480px){
+		.map {
+			height: 250px;
+		}
+	}
+	.map-tooltip {
+		width: 100%;
+		height: 100%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+
+.destinationPage {
+	margin-top: 4em;
+	display: none;
+}
+
+	@media only screen and (min-width: 1200px) {
+		.destinationPage {
+			margin-top: 0;
+		}
+	}
+
+	.destination__container {
+		background: url(../images/bg_mountain.jpg) no-repeat;
+		background-size: cover;
+		padding-bottom: 4em;
+		text-align: center;
+		border-top: 10px solid $color__red--primary;
+	}
+
+	.destination__title {
+		background-color: $color__red--primary;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0;
+		padding: .5em 3em;
+		display: inline-block;
+	}
+
+
+	@media only screen and (min-width: 0px) and (max-width: 479px){
+		.destination__title {
+			font-size: 14px;
+		}
+	}
+
+	.destination__city {
+		color: $color__red--primary;
+		text-transform: uppercase;
+		font-size: 42px;
+		font-weight: 800;
+		padding: .5em 0;
+	}
+
+
+.resorts {
+	border-top: 5px solid $color__grey--light;
+	background: url(../images/ic-triangle.png) no-repeat;
+	background-position: 50% -1%;
+	text-align: center;
+	padding-top: 3em;
+}
+	.resorts__title {
+		color: $color__grey--light;
+		font-size: 36px;
+		font-weight: 700;
+		padding: .5em 0 0 0;
+		text-transform: uppercase;
+	}
+
+	.resorts__separator {
+		border: 0;
+		outline: 0;
+		height: 2px;
+		width: 60px;
+		margin-bottom: 4em;
+		background-color: $color__grey--light;
+	}
+
+	.restorts__item {
+		padding: 6em 6em 14em 6em;
+		background-size: cover;
+		max-height: 350px;
+		overflow: hidden;
+	}
+
+
+	@media only screen and (min-width: 0px) and (max-width: 479px){
+		.restorts__item {
+			text-align: center;
+			padding: 3em 3em 3em 3em;
+		}
+	}
+
+	.resorts__item--title {
+		color: #fff;
+		font-size: 42px;
+		font-weight: 700;
+		padding-top: 1em;
+		text-transform: uppercase;
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 479px){
+		.resorts__item--title {
+			font-size: 24px;
+			text-align: center;
+			padding-top: 0;
+		}
+	}
+
+
+	.resorts__item--details {
+		color: #fff;
+		background-color: $color__red--primary;
+		margin-top: .5em;
+		display: inline-block;
+		padding: 1em 3em;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		&:hover, &:focus {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 479px){
+		.resorts__item--details {
+			text-align: center;
+		}
+	}
+
+	.destination__footer {
+		background: url(../images/bg-lines.jpg) no-repeat;
+		background-size: cover;
+		padding: 6em 0;
+		text-align: center;
+	}
+
+	.destination__footer--info {
+		font-size: 21px;
+		line-height: 1.5em;
+		strong {
+			font-weight: 800;
+		}
+	}
+
+	.goBack {
+		background-color: $color__red--primary;
+		display: none;
+		position: fixed;
+		top: 50%;
+		right: 0;
+		padding: 1em 2em;
+		text-align: center;
+		z-index: 200;
+	}
+
+	.goBack__text {
+		color: #fff;
+		line-height: 1.2em;
+		font-weight: 700;
+		font-size: 18px;
+		margin-top: .5em;
+		display: block;
+		&:hover, &:focus {
+			color: white;
+			text-decoration: none;
+		}
+	}
+
+
+	@media only screen and (min-width: 0px) and (max-width: 767px){
+		.goBack {
+			padding: .5em 1em;
+			top: 25%;
+		}
+		
+		.goBack img {
+			width: 20px;
+			height: auto;
+			display: none;
+		}
+
+		.goBack__text {
+			font-size: 12px;
+			margin-top: 0;
+		}
+	}
+
+
+	.resorts__colorado--riverCreek {
+		background: url(../images/destinos/img-beavercreek.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	.resorts__colorado--aspen {
+		background: url(../images/destinos/img-aspen.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__colorado--breckenridge {
+		background: url(../images/destinos/img-breckenridge.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__colorado--copper-mountain {
+		background: url(../images/destinos/img-coppermountain.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__colorado--keystone {
+		background: url(../images/destinos/img-keystone.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__colorado--vail {
+		background: url(../images/destinos/img-vail.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__colorado--crested-butte {
+		background: url(../images/destinos/img-crestedbutte.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__colorado--winter-park {
+		background: url(../images/destinos/img-winterpark.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	/* Wyoming */
+
+	.resorts__wyoming {
+		background: url(../images/destinos/img-wyoming.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	/* Alaska */
+	.resorts__aleyska {
+		background: url(../images/destinos/img-aleyska.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	/* New Mexico */
+	.resorts__taos {
+		background: url(../images/destinos/img-taos.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	/* East Coast */
+	.resorts__stowe-resort {
+		background: url(../images/destinos/img-stoweresort.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__sunday-river {
+		background: url(../images/destinos/img-sundayriver.jpg) no-repeat;	
+		background-size: cover;
+	}
+
+	/* California  */
+	.resorts__heavenly {
+		background: url(../images/destinos/img-heavenly.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__northstar {
+		background: url(../images/destinos/img-northstar.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__mammoth {
+		background: url(../images/destinos/img-mammoth.jpg) no-repeat;	
+		background-size: cover;
+	}
+
+	.resorts__alpine-meadows {
+		background: url(../images/destinos/img-alpine.jpg) no-repeat;	
+		background-size: cover;
+	}
+
+	.resorts__squaw-valley {
+		background: url(../images/destinos/img-squawvalley.jpg) no-repeat;	
+		background-size: cover;
+	}	
+
+	/* Utah  */
+
+	.resorts__park-city {
+		background: url(../images/destinos/img-park-city.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__deer-valley {
+		background: url(../images/destinos/img-deer-valley.jpg) no-repeat;		
+		background-size: cover;
+	}
+
+	.resorts__canyons {
+		background: url(../images/destinos/img-canyons.jpg) no-repeat;	
+		background-size: cover;
+	}
+
+	.resorts__alta {
+		background: url(../images/destinos/img-alta.jpg) no-repeat;	
+		background-size: cover;
+	}
+
+	.resorts__snowbird {
+		background: url(../images/destinos/img-snowbird.jpg) no-repeat;	
+		background-size: cover;
+	}
+
+
+	/* Canada */
+
+	.resorts__whistler {
+		background: url(../images/destinos/img-whistler.jpg) no-repeat;			
+		background-size: cover;
+	}
+
+	.resorts__jasper {
+		background: url(../images/destinos/img-jasper.jpg) no-repeat;			
+		background-size: cover;
+	}
+
+	.resorts__lake-louise {
+		background: url(../images/destinos/img-lakelouise.jpg) no-repeat;			
+		background-size: cover;
+	}
+
+	.resorts__tremblant {
+		background: url(../images/destinos/img-tremblant.jpg) no-repeat;			
+		background-size: cover;
+	}
+
+	.resorts__lemassif {
+		background: url(../images/destinos/img-lemassif.jpg) no-repeat;			
+		background-size: cover;
+	}
+
+	.resorts__montsainte {
+		background: url(../images/destinos/img-montsainte.jpg) no-repeat;			
+		background-size: cover;
+	}
+

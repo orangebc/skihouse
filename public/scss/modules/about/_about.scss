@@ -1,0 +1,52 @@
+.about {
+	background: url(../images/bg-somos.jpg) no-repeat;
+	background-size: cover;
+	padding: 10em 0;
+}
+
+
+
+.company {
+	background: url(../images/bglines1.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+
+.skiing {
+
+	padding: 2em 0 32em 0;
+}
+
+	@media only screen and (min-width: 1700px){
+		.skiing {
+			background: url(../images/bgsomos3.jpg) 80% -25% no-repeat;
+			background-size: cover;
+		}
+	}	
+
+	@media only screen and (min-width: 1200px) and (max-width: 1699px){
+		.skiing {
+			background: url(../images/bgsomos3.jpg) 80% -250% no-repeat;
+			padding-top: 8em;
+		}
+	}
+
+
+
+	@media only screen and (min-width: 480px) and (max-width: 1199px){
+		.skiing {
+			padding-bottom: 2em;
+		}
+	}
+
+	@media only screen and (min-width: 0px) and (max-width: 479px){
+		.skiing {
+			padding-bottom: 2em;
+			background: none;
+		}
+	}
+
+	.skiing .text-center {
+		background-color: transparent !important;
+	}

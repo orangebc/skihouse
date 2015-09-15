@@ -1,0 +1,95 @@
+.header {
+	background-color: $color__red--light;
+	color: $color__white;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+	@media only screen and (min-width: 992px){
+		.header {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 100;
+		}
+	}
+
+	.header__icon {
+		width: 40px;
+	}	
+
+	.header__icon--payment {
+		width: 40px;
+		margin-left: 1em;
+	}
+
+	.header__icon--menu {
+		width: 30px;
+		position: relative;
+	}
+
+		.header__info {
+			padding-top: .5em;
+			font-size: 14px;
+			font-weight: 300;
+			text-transform: uppercase;
+		}
+
+	.header__logo {
+		img {
+			width: 240px;
+			height: auto;
+			background-color: white;
+		}
+	}
+
+	.header__social {
+		padding-top: 1em;
+	}
+
+	.header__social--media li a {
+		text-decoration: none;
+		color: white;
+		&:hover {
+			color: white;
+		}
+		&:focus {
+			color: white;
+		}
+	}
+
+	@media only screen and (min-width: 992px) {
+		.header__social {
+			text-align: right;
+		}
+		.header__social--media {
+			display: inline-block;
+			li {
+				margin-right: .5em;
+			}
+		}
+	}
+	
+	@media only screen and (min-width: 0px) and (max-width: 991px){
+		.header__social {
+			text-align: right;
+			padding: 1.5em 1em;
+		}
+		.header__social--media {
+			display: none;
+		}
+	}
+
+
+	.header__social--menu {
+		display: inline-block;
+		padding: 0 1em;
+		&:hover {
+			cursor: pointer;
+		}
+	}
