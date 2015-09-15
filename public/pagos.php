@@ -1,4 +1,4 @@
-<?php include('html/header.php'); ?>
+<?php include('html/header_url.php'); ?>
 <head>
 	<meta name="description" content="Porque pensamos en tu comodidad, tenemos diferentes métodos de pago para ti: Transferencia Bancaria, Depósito, Pago Directo">
 	<meta name="author" content="Orange Boutique Creativa">
@@ -46,5 +46,5 @@
 		</div>
 	</div>
 </section>
-<?php include('html/form.php'); ?>
-<?php include('html/footer.php'); ?>
+<?php include('html/form_url.php'); ?>
+<?php include('html/footer_url.php'); ?>

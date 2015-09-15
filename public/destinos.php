@@ -1,4 +1,4 @@
-	<?php include('html/header.php'); ?>
+<?php include('html/header_url.php'); ?>
 	<head>
 	    <meta name="description" content="Busca y Escoge Los Destinos Que Quieres Conocer">
 	    <meta name="author" content="Orange Boutique Creativa">
@@ -290,10 +290,10 @@
 
 	<div class="goBack">
 		<figure class="goBack__icon">
-			<img src="images/ic-subir.png" alt="goBack">
+			<img src="/images/ic-subir.png" alt="goBack">
 		</figure>
 		<a href="#map" class="goBack__text">[ Regresar <br> al mapa ]</a>
 	</div>
 
-	<?php include('html/form.php'); ?>
-	<?php include('html/footer.php'); ?>
+	<?php include('html/form_url.php'); ?>
+	<?php include('html/footer_url.php'); ?>

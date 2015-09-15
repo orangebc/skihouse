@@ -1,4 +1,4 @@
-<?php include('html/header.php'); ?>
+<?php include('html/header_url.php'); ?>
 <head>
 	<meta name="description" content="Para mayor información, escríbanos un mensaje y a la brevedad nos pondremos en contacto.">
 	<meta name="author" content="Orange Boutique Creativa">
@@ -14,7 +14,7 @@
     <section class="contactUs">
         <div class="contactUs__container">
             <p class="contactUs__info">Para mayor información, escríbanos un mensaje y a la brevedad nos pondremos en contacto.</p>
-            <form class="contactUs__form" action="php/contact.php" method="post">
+            <form class="contactUs__form" action="/php/contact.php" method="post">
                 <div class="form-group">
                     <label for="contactName" class="contactUs__form--label" >Nombre</label>
                     <input type="text" class="form-control contactUs__form--field" name="contactName" placeholder="Ingresa tu nombre" id="contactName" required>
@@ -40,5 +40,5 @@
         </div>
     </section>
     <!-- /contactForm -->
-   <?php include('html/form.php'); ?>
-   <?php include('html/footer.php'); ?>
+	<?php include('html/form_url.php'); ?>
+	<?php include('html/footer_url.php'); ?>

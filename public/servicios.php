@@ -1,4 +1,4 @@
-  <?php include('html/header.php'); ?>
+<?php include('html/header_url.php'); ?>
   <head>
       <meta name="description" content="Planea tu experiencia como tú prefieras. Tenemos todos los servicios para hacer de tu viaje a la nieve lo más completo y cómodo para que tú sólo te ocupes de la diversión. Con nuestro Buffet Ski House, tú eliges esquiar a tu gusto. Con todos los servicios que tenemos que se adaptan a tus necesidades.">
       <meta name="author" content="Orange Boutique Creativa">
@@ -128,5 +128,5 @@
             </div>
         </div>
    </section>
-   <?php include('html/form.php'); ?>
-   <?php include('html/footer.php'); ?>
+   <?php include('html/form_url.php'); ?>
+   <?php include('html/footer_url.php'); ?>

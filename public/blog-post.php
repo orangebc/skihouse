@@ -1,4 +1,4 @@
-<?php include('html/header.php'); ?>
+<?php include('html/header_url.php'); ?>
 <head>
 	<meta name="description" content="Tips para tu viaje a la nieve">
 	<meta name="author" content="Orange Boutique Creativa">
@@ -34,5 +34,5 @@
             <a href="http://www.skihouse.com.mx/blog.php" class="blog-post__back">[Regresar]</a>
         </div>
     </section>
-   <?php include('html/form.php'); ?>
-   <?php include('html/footer.php'); ?>
+	<?php include('html/form_url.php'); ?>
+	<?php include('html/footer_url.php'); ?>

@@ -16,7 +16,7 @@ $(document).ready(function(){
 		lat: 61.3008186,
 		lng: -158.7750198,
 		title: 'E.U.A - Alaska',
-		icon: 'images/iclocal.png',
+		icon: '/images/iclocal.png',
         click: function(e) {
             $(".destinationPage").hide();
             $("#3").toggle("slowDown");
@@ -31,7 +31,7 @@ $(document).ready(function(){
 		lat: 54.1552156,
 		lng: -126.5556456,
 		title: 'Canada, British - Columbia',
-		icon: 'images/iclocal.png',
+		icon: '/images/iclocal.png',
         click: function(e) {
             $(".destinationPage").hide();
             $("#7").toggle("slowDown");
@@ -46,7 +46,7 @@ $(document).ready(function(){
 		lat: 54.4983693,
 		lng: -115.0001885,
 		title: 'Canada, Alberta',
-		icon: 'images/iclocal.png',
+		icon: '/images/iclocal.png',
         click: function(e) {
             $(".destinationPage").hide();
             $("#8").toggle("slowDown");
@@ -61,7 +61,7 @@ $(document).ready(function(){
 		lat: 37.2718745,
 		lng: -119.273188,
 		title: 'EUA, LAKE TAHOE',
-		icon: 'images/iclocal.png',
+		icon: '/images/iclocal.png',
         click: function(e) {
             $(".destinationPage").hide();
             $("#6").toggle("slowDown");
@@ -76,7 +76,7 @@ $(document).ready(function(){
 		lat: 38.9471783,
 		lng: -107.7200386,
 		title: 'EUA, COLORADO',
-		icon: 'images/iclocal.png',
+		icon: '/images/iclocal.png',
 		click: function(e) {
             $(".destinationPage").hide();
     		$("#1").toggle("slowDown");
@@ -91,7 +91,7 @@ $(document).ready(function(){
 		lat: 43.000325,
 		lng: -107.5545669,
 		title: 'EUA, WYOMING',
-		icon: 'images/iclocal.png',
+		icon: '/images/iclocal.png',
         click: function(e) {
             $(".destinationPage").hide();
             $("#2").toggle("slowDown");
@@ -106,7 +106,7 @@ $(document).ready(function(){
 		lat: 39.4997605,
 		lng: -111.547028,
 		title: 'EUA, UTAH',
-		icon: 'images/iclocal.png',
+		icon: '/images/iclocal.png',
         click: function(e) {
             $(".destinationPage").hide();
             $("#10").toggle("slowDown");
@@ -121,7 +121,7 @@ $(document).ready(function(){
 		lat: 42.3667541,
 		lng: -71.1074368,
 		title: 'EUA, EAST COAST',
-		icon: 'images/iclocal.png',
+		icon: '/images/iclocal.png',
         click: function(e) {
             $(".destinationPage").hide();
             $("#5").toggle("slowDown");
@@ -130,13 +130,13 @@ $(document).ready(function(){
         infoWindow: {
           content: '<p class="map-tooltip">East Coast</p>'
         }
-	}); 
+	});
 
     map.addMarker({
         lat: 34.1662325,
         lng: -106.0260685,
         title: 'EUA, NEW MEXICO',
-        icon: 'images/iclocal.png',
+        icon: '/images/iclocal.png',
         click: function(e) {
             $(".destinationPage").hide();
             $("#4").toggle("slowDown");
@@ -151,7 +151,7 @@ $(document).ready(function(){
 		lat: 46.8580074,
 		lng: -71.3460728,
 		title: 'QUEBEC',
-		icon: 'images/iclocal.png',
+		icon: '/images/iclocal.png',
         click: function(e) {
             $(".destinationPage").hide();
             $("#9").toggle("slowDown");

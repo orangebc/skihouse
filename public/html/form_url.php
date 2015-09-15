@@ -3,7 +3,7 @@
        <div class="container-fluid">
             <h2 class="form__title">Contáctanos</h2>
             <hr class="form__separator">
-            <form action="php/send.php" method="post">
+            <form action="/php/send.php" method="post">
                 <div class="row">
                    <div class="col-lg-4 field__container">
                         <div class="form-group col-xs-12">
@@ -118,7 +118,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <label for="" class="nope form__label">Niños:</label>
-                            <input type="number" class="form-control" name="formNinos" min="0" max="999" onkeypress="return isNumberKey(event)" placeholder="Número de Niños" required>
+                            <input type="number" class="form-control" name="formNinos"  min="0" max="999" onkeypress="return isNumberKey(event)" placeholder="Número de Niños" required>
                         </div>
                    </div>
                    <div class="col-lg-4 field__container">
@@ -234,7 +234,7 @@
                 <div class="row">
                     <div class="col-lg-4"></div>
                     <div class="col-lg-4 form__avisoPrivacidad">
-                        <h5 class="form__privacy--name"><a href="aviso-privacidad.php">Aviso de privacidad</a></h5>
+                        <h5 class="form__privacy--name"><a href="/aviso-privacidad.php">Aviso de privacidad</a></h5>
                         <hr class="form__separator">
                     </div>
                     <div class="col-lg-4 form__avisoPrivacidad">

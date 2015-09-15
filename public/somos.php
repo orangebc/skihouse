@@ -1,4 +1,4 @@
-<?php include('html/header.php'); ?>
+<?php include('html/header_url.php'); ?>
 <head>
     <meta name="description" content="Ski House by De Gala Tours es una compañía con más de 39 años de experiencia promoviendo el esquí en México. Somos una tour-operadora que ofrece viajes hechos a la medida, con la mejor calidad en el servicio. Nuestra misión es hacer de sus vacaciones en la nieva una experiencia única e inolvidable, es por ello que trabajamos con los mejores resorts para traerle los destinos Top Class alrededor del mundo.">
     <meta name="author" content="Orange Boutique Creativa">
@@ -41,5 +41,5 @@
            </div>
        </div>
    </section>
-   <?php include('html/form.php'); ?>
-   <?php include('html/footer.php'); ?>
+   <?php include('html/form_url.php'); ?>
+   <?php include('html/footer_url.php'); ?>

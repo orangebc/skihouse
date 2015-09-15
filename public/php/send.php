@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>SkiHouse</title>
-</head>
-<body>
 <?php
-	
+
 	$nombre = $_POST['formNombre'];
 	$email = $_POST['formEmail'];
 	$telefono = $_POST['formTelefono'];
@@ -36,8 +29,8 @@
 	$message = '<html><body><head><meta charset="UTF-8"></head>';
 	$message .= '<strong>SkiHouse Cotizador </strong><br><br>';
 	$message .= 'Nombre de Cliente: ' . '<strong>' . $nombre . '</strong><br><br>';
-	$message .= 'Email: ' . '<strong>' . $email . "</strong><br><br>";	
-	$message .= 'Fecha de salida: ' . '<strong>' . $new_format . "</strong><br><br>";	
+	$message .= 'Email: ' . '<strong>' . $email . "</strong><br><br>";
+	$message .= 'Fecha de salida: ' . '<strong>' . $new_format . "</strong><br><br>";
 	$message .= 'Fecha de regreso: ' . '<strong>' . $new_formatReturn . "</strong><br><br>";
 	$message .= 'Teléfono: ' . '<strong>' . $telefono . "</strong><br><br>";
 	$message .= 'Es Usted: ' . '<strong>' . $esUsted . "</strong><br><br>";
@@ -50,24 +43,21 @@
 	$message .= 'Comentarios adicionales ' . '<strong>' . $comentarios . "</strong><br><br>";
 	$message .= '</body></html>';
 
-  
+
 	if ($_POST['submit']) {
 	if (mail($to, $title, $message, $headers )) {
 
 	echo '
-	<script type="text/javascript">		
+	<script type="text/javascript">
 			alert("Gracias, en breve nos comunicaremos con usted.");
+			window.location.href = "http://skihouse.com.mx";
 	</script>
 
-	<script type="text/javascript">
-		window.location.href = "http://skihouse.com.mx";
-	</script>
 		'
-	; 
-		} else { 
-			echo 'Falló el envio'; } 
+	;
+		} else {
+			echo 'Falló el envio'; }
 		}
 ?>
 </body>
 </html>
-
